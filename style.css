@@ -24,6 +24,8 @@
 
     box-sizing: border-box;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 
 }
@@ -31,15 +33,30 @@
     height:74px;
     width:104px;
     margin:0 12px 0 0 ;
-    border:1px solid black;
+  
     padding:14px 0 14px 0;
     position:relative;
     cursor: pointer;
     background-color:#D84E55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
     
 
 }
-.svgbus{
+.rb_logo img{
+    height: 48px;
+    width: 80px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+    
+}
+.innerbox img{
     background-color: #ffffff;
     text-align: center;
     height: 20px;
@@ -51,7 +68,72 @@
     max-height: auto;
     outline: rgb(255,0,0) dashed 1px;
     vertical-align:middle;
+    stroke: #ffffff;
 }
+
+
+   
 span{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.car_rental{
+    height:74px;
+    width:104px;
+    margin:0 12px 0 0 ;
+  
+    padding:14px 0 14px 0;
+    position:relative;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
+    padding: 14px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     
+}
+.car_rental :hover{
+    background-color: #fdfdfd;
+}
+
+.car_rental span{
+    color: #1d1d1d;
+    font-weight: 500;
+}
+.train_tickets{ height:74px;
+    width:104px;
+    margin:0 12px 0 0 ;
+  
+    padding:14px 0 14px 0;
+    position:relative;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px ;
+    padding: 14px 10px;
+
+}
+.train_tickets img{
+    height: 20px;
+    width:84px;
+    min-height: auto;
+    min-width: auto;
+    box-sizing: border-box;
+    /* margin-right: 8px;
+    padding-right: 30px; */
+}
+.train_tickets span{
+    color: #1d1d1d;
+    font-weight: 500;
+    height: 18px;
+    width:88px;
 }
