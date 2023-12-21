@@ -137,3 +137,15 @@ span{
     height: 18px;
     width:88px;
 }
+.help{
+    height: 34px;
+    width: 84px;
+    
+}
+.help i{
+    height: 22px;
+    width: 22px;
+}
+.help i span{
+    color: #1d1d1d;
+}
